@@ -1,0 +1,9 @@
+import numpy as pd
+import pandas as pd
+zoo=pd.read_csv("zoo.csv",delimiter=',')
+zoo.head()
+import matplotlib.pyplot as plt
+zoo['water_need'].head(10).plot(kind='barh')
+plt.show()
+zoo[["animal"]]
+zoo
